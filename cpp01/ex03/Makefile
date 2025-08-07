@@ -1,17 +1,16 @@
-
 CPP			:= clang++
 CPPFLAGS	:= -Wall -Wextra -Werror -std=c++11
 HDRS		:= -I.
 
 OBJ_DIR		:= obj
 
-SRCS		:= Zombie.cpp zombieHorde.cpp
+SRCS		:= HumanA.cpp HumanB.cpp Weapon.cpp
 SRC_MAIN	:= main.cpp
 
 OBJS		:= $(SRCS:%.cpp=$(OBJ_DIR)/%.o)
 OBJS_MAIN	:= $(SRC_MAIN:%.cpp=$(OBJ_DIR)/%.o)
 
-NAME		:= zombie
+NAME		:= violence
 
 # Rules
 all: $(OBJ_DIR) $(NAME)
