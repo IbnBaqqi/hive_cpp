@@ -1,5 +1,5 @@
-#ifndef ZOMBIE_EX01_HPP_
-#define ZOMBIE_EX01_HPP_
+#ifndef ZOMBIE_HPP
+#define ZOMBIE_HPP
 
 #include <iostream>
 #include <new>

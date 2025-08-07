@@ -1,5 +1,5 @@
-#ifndef WEAPON_EX03_HPP_
-#define WEAPON_EX03_HPP_
+#ifndef WEAPON_HPP
+#define WEAPON_HPP
 
 #include <iostream>
 

@@ -1,0 +1,10 @@
+View controllers are rarely used in isolation. Instead, you often use multiple view controllers, each of which owns a portion of your app’s user interface.
+For example, one view controller might display a table of items while a different view controller displays the selected item from that table.
+Usually, only the views from one view controller are visible at a time.
+A view controller may present a different view controller to display a new set of views, or it may act as a container for other view controllers’ content and animate views however it wants.
+
+Subclassing notes
+Every app contains at least one custom subclass of UIViewController. More often, apps contain many custom view controllers.
+Custom view controllers define the overall behaviors of your app, including the app’s appearance and how it responds to user interactions.
+The following sections provide a brief overview of some of the tasks your custom subclass performs.
+For detailed information about using and implementing view controllers, see View Controller Programming Guide for iOS.

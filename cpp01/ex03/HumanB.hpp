@@ -1,5 +1,5 @@
-#ifndef HUMANB_EX03_HPP_
-#define HUMANB_EX03_HPP_
+#ifndef HUMANB_HPP
+#define HUMANB_HPP
 
 #include <iostream>
 

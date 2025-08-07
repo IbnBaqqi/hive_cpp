@@ -1,6 +1,6 @@
 #pragma once
-#ifndef ZOMBIE_HPP_
-#define ZOMBIE_HPP_
+#ifndef ZOMBIE_HPP
+#define ZOMBIE_HPP
 
 #include <iostream>
 #include <new>
